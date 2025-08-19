@@ -3,6 +3,7 @@ from app.components import Header
 from app.screens import HomeScreen, NavigationScreen
 from app.providers import ScreenStackProvider
 
+#  flet run main.py
 def main(page: ft.Page):
     page.title = "AI Agent Chat"
     page.window.height = 600
